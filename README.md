@@ -27,7 +27,7 @@ Saya menggunakan **Teknik Feynman**:
 
 | ID | Modul | Skill & Tools | Goal | Status |
 | :--- | :--- | :--- | :--- | :---: |
-| **MK-004** | **Containerization** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) Dockerfile, Compose, Optimization, Registry | Mengatasi masalah *"It works on my machine"* selamanya. | ⏳ Waiting |
+| **MK-004** | **Containerization** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) Dockerfile, Compose, Optimization, Registry | Mengatasi masalah *"It works on my machine"* selamanya. | **Menunggu:** `![](https://img.shields.io/badge/STATUS-WAITING-lightgrey?style=for-the-badge&logo=hourglass)` |
 | **MK-005** | **Cloud Infrastructure** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white) EC2, S3, VPC, IAM, Billing Mgmt | Paham cara sewa & manajemen server global vs lokal. | ⏳ Waiting |
 | **MK-006** | **Infrastructure as Code** | ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white) HCL, State Mgmt, Provisioning | Setup server pakai kode, bukan klik mouse. Server mati? Jalankan kode, hidup lagi. | ⏳ Waiting |
 
