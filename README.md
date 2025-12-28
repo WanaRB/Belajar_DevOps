@@ -10,6 +10,26 @@
 * **Sedang Dikerjakan:** ![](https://img.shields.io/badge/STATUS-ON_PROGRESS-yellow?style=for-the-badge&logo=fire) = Materi dalam proses belajar
 * **Selesai:** ![](https://img.shields.io/badge/STATUS-DONE-success?style=for-the-badge&logo=checkmark) = Materi selesai dipelajari
 
+### Opsi 1: Bold & Pro (Rekomendasi)
+| Status | Preview | Kode (Copy ini) |
+| :--- | :--- | :--- |
+| **Waiting** | ![](https://img.shields.io/badge/STATUS-WAITING-lightgrey?style=for-the-badge&logo=hourglass&logoColor=white) | `![](https://img.shields.io/badge/STATUS-WAITING-lightgrey?style=for-the-badge&logo=hourglass&logoColor=white)` |
+| **On Progress** | ![](https://img.shields.io/badge/STATUS-ON_PROGRESS-F7D51D?style=for-the-badge&logo=fire&logoColor=black) | `![](https://img.shields.io/badge/STATUS-ON_PROGRESS-F7D51D?style=for-the-badge&logo=fire&logoColor=black)` |
+| **Done** | ![](https://img.shields.io/badge/STATUS-DONE-success?style=for-the-badge&logo=checkmark&logoColor=white) | `![](https://img.shields.io/badge/STATUS-DONE-success?style=for-the-badge&logo=checkmark&logoColor=white)` |
+
+### Opsi 2: Classic GitHub (Rapi)
+| Status | Preview | Kode (Copy ini) |
+| :--- | :--- | :--- |
+| **Waiting** | ![](https://img.shields.io/badge/Status-Waiting-lightgrey?style=flat&logo=hourglass) | `![](https://img.shields.io/badge/Status-Waiting-lightgrey?style=flat&logo=hourglass)` |
+| **On Progress** | ![](https://img.shields.io/badge/Status-On_Progress-yellow?style=flat&logo=fire) | `![](https://img.shields.io/badge/Status-On_Progress-yellow?style=flat&logo=fire)` |
+| **Done** | ![](https://img.shields.io/badge/Status-Done-success?style=flat&logo=checkmark) | `![](https://img.shields.io/badge/Status-Done-success?style=flat&logo=checkmark)` |
+
+### Opsi 3: Modern Square (Minimalis)
+| Status | Preview | Kode (Copy ini) |
+| :--- | :--- | :--- |
+| **Waiting** | ![](https://img.shields.io/badge/Waiting...-lightgrey?style=flat-square) | `![](https://img.shields.io/badge/Waiting...-lightgrey?style=flat-square)` |
+| **On Progress** | ![](https://img.shields.io/badge/Loading-85%25-blue?style=flat-square) | `![](https://img.shields.io/badge/Loading-85%25-blue?style=flat-square)` |
+| **Done** | ![](https://img.shields.io/badge/Completed-Yes-success?style=flat-square) | `![](https://img.shields.io/badge/Completed-Yes-success?style=flat-square)` |
 ---
 
 ## 🧠 Metode Pembelajaran (Feynman Technique)
