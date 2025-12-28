@@ -6,9 +6,9 @@
 
 ## 🚦 Status
 
-* **Menunggu:** ![](https://img.shields.io/badge/Waiting-lightgrey?style=flat&logo=hourglass) : Materi belum dipelajari
-* **Sedang Dikerjakan:** ![](https://img.shields.io/badge/On_Progress-yellow?style=flat&logo=fire) : Materi sedang dipelajari
-* **Selesai:** ![](https://img.shields.io/badge/Done-success?style=flat&logo=checkmark) : Materi sudah dipelajari
+* **Menunggu:**   ![](https://img.shields.io/badge/Waiting-lightgrey?style=flat&logo=hourglass)   : Materi belum dipelajari
+* **Sedang Dikerjakan:**   ![](https://img.shields.io/badge/On_Progress-yellow?style=flat&logo=fire)   : Materi sedang dipelajari
+* **Selesai:**   ![](https://img.shields.io/badge/Done-success?style=flat&logo=checkmark)   : Materi sudah dipelajari
 
 ---
 
