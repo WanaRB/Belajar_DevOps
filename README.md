@@ -25,7 +25,7 @@
 
 | ID | Modul | Skill & Tools | Goal | Status |
 | :--- | :--- | :--- | :--- | :---: |
-| **MK-001** | **Linux SysAdmin** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) CLI, Permissions, Bash | Tidak canggung di terminal & bisa perintah server otomatis. | ![](https://img.shields.io/badge/Status-On_Progress-yellow?style=flat&logo=fire) |
+| **MK-001** | **Linux SysAdmin** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) CLI, Permissions, Bash | Tidak canggung di terminal & bisa perintah server otomatis. | ![](https://img.shields.io/badge/On_Progress-yellow?style=flat&logo=fire) |
 | **MK-002** | **Networking** | ![Network](https://img.shields.io/badge/Network-TCP%2FIP-blue) DNS, OSI, SSH, UFW | Paham kenapa aplikasi "refuse to connect" & cara amaninnya. | ![](https://img.shields.io/badge/Status-Waiting-lightgrey?style=flat&logo=hourglass) |
 | **MK-003** | **Coding Ops** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) Scripting, Git Flow | Bisa nulis script otomatisasi & kolaborasi via Git. | ![](https://img.shields.io/badge/Status-Waiting-lightgrey?style=flat&logo=hourglass) |
 
