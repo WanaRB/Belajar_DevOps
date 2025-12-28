@@ -1,7 +1,7 @@
 # Belajar_DevOps
 Belajar DevOps dari 0 pakai sistem Mata kuliah. 
 Belajar menggunakan teknik feynman, dengan prosedur membaca materi, mencoba menjelaskannya dengan bahasa sendiri lalu latihan pemahaman dan latihan ketik. 
-setelah belajar beberapa MK (Mata Kuliah), membuat project studi kasus yang menggabungkan beberapa MK.
+setelah belajar beberapa MK (Mata Kuliah), saya akan membuat project studi kasus yang menggabungkan beberapa MK.
 
 Materi yang dipelajar:
 1. MK-001: Linux System Administration & Bash
