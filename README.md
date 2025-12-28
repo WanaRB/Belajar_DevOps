@@ -4,17 +4,17 @@
 
 ---
 
-## 🚦 Status Legend
+## 🚦 Status
 
-* **Menunggu:** ![](https://img.shields.io/badge/Waiting-lightgrey?style=flat&logo=hourglass)
-* **Sedang Dikerjakan:** ![](https://img.shields.io/badge/On_Progress-yellow?style=flat&logo=fire)
-* **Selesai:** ![](https://img.shields.io/badge/Done-success?style=flat&logo=checkmark)
+* **Menunggu:** ![](https://img.shields.io/badge/Waiting-lightgrey?style=flat&logo=hourglass) : Materi belum dipelajari
+* **Sedang Dikerjakan:** ![](https://img.shields.io/badge/On_Progress-yellow?style=flat&logo=fire) : Materi sedang dipelajari
+* **Selesai:** ![](https://img.shields.io/badge/Done-success?style=flat&logo=checkmark) : Materi sudah dipelajari
 
 ---
 
 ## 🧠 Metode Pembelajaran (Feynman Technique)
 1.  **Study**: Mempelajari konsep inti.
-2.  **Simplify**: Menjelaskan kembali di dokumentasi ini.
+2.  **Simplify**: Menjelaskan kembali dengan bahasa sendiri.
 3.  **Implement**: Hands-on lab & latihan ketik.
 4.  **Integrate**: Mini-project gabungan.
 
