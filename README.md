@@ -1,11 +1,10 @@
 # 🚀 Belajar DevOps: Zero to Hero Roadmap
 
-> Repository ini mendokumentasikan perjalanan saya (@dewa) mempelajari DevOps dari nol menggunakan struktur Mata Kuliah.
+> Repository ini mendokumentasikan perjalanan saya mempelajari DevOps dari nol menggunakan struktur Mata Kuliah.
 
 ---
 
-## 🚦 Status Legend (Kamus Status)
-*Copy kode badge di bawah ini dan tempel ke kolom Status saat ada progress:*
+## 🚦 Status
 
 * **Menunggu:** `![](https://img.shields.io/badge/STATUS-WAITING-lightgrey?style=for-the-badge&logo=hourglass)`
 * **Sedang Dikerjakan:** `![](https://img.shields.io/badge/STATUS-ON_PROGRESS-yellow?style=for-the-badge&logo=fire)`
