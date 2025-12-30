@@ -1,0 +1,60 @@
+# 1. Start & Enable Nginx (Persistence)
+dewa@myserver:~$ sudo systemctl start nginx
+dewa@myserver:~$ sudo systemctl enable nginx
+Synchronizing state of nginx.service with SysV service script with /usr/lib/systemd/systemd-sysv-install.
+Executing: /usr/lib/systemd/systemd-sysv-install enable nginx
+Created symlink /etc/systemd/system/multi-user.target.wants/nginx.service → /usr/lib/systemd/system/nginx.service.
+
+# 2. Verify Service Status
+dewa@myserver:~$ sudo systemctl status nginx
+● nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2025-12-30 11:11:11 UTC; 28s ago
+       Docs: man:nginx(8)
+   Main PID: 893 (nginx)
+      Tasks: 3 (limit: 4605)
+     Memory: 3.7M
+     CGroup: /system.slice/nginx.service
+             ├─893 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"
+             ├─896 "nginx: worker process"
+             └─897 "nginx: worker process"
+
+# 3. Process Inspection (Identify PIDs)
+dewa@myserver:~$ ps aux | grep -i "nginx"
+root         893  0.0  0.0  11156  1596 ?        Ss   11:11   0:00 nginx: master process
+www-data     896  0.0  0.1  12880  4284 ?        S    11:11   0:00 nginx: worker process
+www-data     897  0.0  0.1  12880  4156 ?        S    11:11   0:00 nginx: worker process
+
+# 4. Precision Monitoring (Specific PIDs)
+dewa@myserver:~$ top -p 893,896,897
+top - 11:22:26 up 11 min,  1 user,  load average: 0.03, 0.18, 0.16
+Tasks:   3 total,   0 running,   3 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  2.3 sy,  0.0 ni, 94.8 id,  0.2 wa,  0.0 hi,  2.5 si
+MiB Mem :   3916.0 total,   3198.5 free,    454.8 used,    480.0 buff/cache
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    893 root      20   0   11156   1596    640 S   0.0   0.0   0:00.00 nginx
+    896 www-data  20   0   12880   4284   3072 S   0.0   0.1   0:00.00 nginx
+    897 www-data  20   0   12880   4156   2944 S   0.0   0.1   0:00.00 nginx
+
+# 5. Traffic Simulation
+dewa@myserver:~$ curl localhost
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+...
+<h1>Server DewaTech Siap!</h1>
+<p>Status: Aman & Terkendali.</p>
+</html>
+
+# 6. Log Analysis (Extract User Agent)
+dewa@myserver:~$ sudo cat /var/log/nginx/access.log | cut -d " " -f12
+"curl/8.5.0"
+"curl/8.5.0"
+"curl/8.5.0"
+
+# 7. Cleanup (Stop & Disable)
+dewa@myserver:~$ sudo systemctl stop nginx
+dewa@myserver:~$ sudo systemctl disable nginx
+Removed "/etc/systemd/system/multi-user.target.wants/nginx.service".

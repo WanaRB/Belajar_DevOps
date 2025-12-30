@@ -1,0 +1,25 @@
+# 🕸️ Project 2: The Web Server Setup
+
+**Status:** Completed ✅  
+**Domain:** Linux System Administration, Process Management, Web Server Deployment
+
+## 📋 Deskripsi Project
+Project ini mensimulasikan deployment web server Nginx dengan standar keamanan dan efisiensi resource. Fokus utama adalah memastikan layanan berjalan otomatis (persistence), membedah penggunaan memori per-proses, dan melakukan audit log akses secara manual.
+
+Project ini menutup pembelajaran tentang **Packages, Processes, dan Init System**.
+
+## 🛠️ Teknologi & Konsep
+* **Package Management:** Instalasi dan update software menggunakan `apt`.
+* **Systemd (Init):** Manajemen siklus hidup layanan (`start`, `stop`, `enable`, `disable`) dan analisa unit file.
+* **Process Utilization:**
+    * Deep dive monitoring menggunakan `ps aux` dan `top -p [PID]`.
+    * Membedakan *Master Process* (Root) dan *Worker Process* (www-data).
+* **Log Analysis:** Parsing data trafik mentah dari `/var/log/nginx/access.log` menggunakan CLI tools (`cat`, `cut`).
+
+## 🚀 Key Achievements
+1.  **Precision Monitoring:** Berhasil memfilter monitoring `top` hanya untuk PID Nginx spesifik guna analisa beban RAM yang akurat.
+2.  **Traffic Simulation:** Melakukan simulasi request HTTP via `curl` untuk men-generate log data.
+3.  **Boot Persistence:** Mengkonfigurasi layanan agar tahan terhadap reboot server (auto-start).
+
+---
+*Dibuat sebagai bagian dari perjalanan menuju DevOps Engineer.*
