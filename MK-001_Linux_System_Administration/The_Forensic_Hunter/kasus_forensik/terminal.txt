@@ -1,0 +1,27 @@
+# 1. Investigasi SSH Brute Force (Mencari Login Gagal)
+dewa@myserver:~/kasus_forensik$ grep -i "FAILED" auth_evidence.log
+Dec 31 10:00:01 myserver sshd[123]: Failed password for root from 192.168.1.50 port 22 ssh2
+Dec 31 10:00:02 myserver sshd[123]: Failed password for root from 192.168.1.50 port 22 ssh2
+Dec 31 10:00:05 myserver sshd[123]: Failed password for invalid user admin from 10.10.10.99 port 22 ssh2
+Dec 31 10:00:06 myserver sshd[123]: Failed password for root from 192.168.1.50 port 22 ssh2
+
+# 2. Mengisolasi IP Attacker & Menghitung Frekuensi Serangan
+# (Menggunakan awk karena struktur kolom log tidak konsisten)
+dewa@myserver:~/kasus_forensik$ grep -i "FAILED" auth_evidence.log | awk -F "from" '{print $2}' | awk '{print $1}' | sort | uniq -c
+      1 10.10.10.99
+      3 192.168.1.50
+
+# 3. Investigasi Aktivitas Mencurigakan (User Dewa)
+dewa@myserver:~/kasus_forensik$ grep "COMMAND" auth_evidence.log
+Dec 31 10:06:00 myserver sudo: dewa : TTY=pts/0 ; COMMAND=/usr/bin/cat /etc/shadow
+
+# 4. Investigasi System Crash (Mencari Penyebab Nginx Mati)
+dewa@myserver:~/kasus_forensik$ cat sys_evidence.log
+Dec 31 09:00:00 myserver systemd[1]: Started Nginx Web Server.
+Dec 31 09:05:00 myserver nginx[890]: [error] 890#0: *1 open() '/var/www/html/admin.php' failed (2: No such file or directory)
+Dec 31 09:06:00 myserver kernel: [ 123.456] Out of memory: Killed process 890 (nginx) total-vm:2048kB
+
+# 5. Membuat Laporan Crash
+dewa@myserver:~/kasus_forensik$ grep -i "killed" sys_evidence.log > laporan_crash.txt
+dewa@myserver:~/kasus_forensik$ cat laporan_crash.txt
+Dec 31 09:06:00 myserver kernel: [ 123.456] Out of memory: Killed process 890 (nginx) total-vm:2048kB

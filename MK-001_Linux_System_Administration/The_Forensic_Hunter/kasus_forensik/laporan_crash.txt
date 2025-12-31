@@ -1,0 +1,1 @@
+Dec 31 09:06:00 myserver kernel: [ 123.456] Out of memory: Killed process 890 (nginx) total-vm:2048kB
