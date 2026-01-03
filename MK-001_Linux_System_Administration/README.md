@@ -55,6 +55,8 @@ Dokumen ini adalah rangkuman teknis ("Cheat Sheet") dari materi Linux System Adm
 | `sudo useradd -m [user]` | Membuat user baru beserta folder home-nya. |
 | `sudo passwd [user]` | Mengatur/Reset password user. |
 
+> **💡 Kode Huruf** `R=Read W=Write X=Exeute` (Jenis jenis Permission).
+> **💡 Nilai Angka** `4=Read 2=Write 1=Execute 0=No Permission ` (Jenis jenis Permission).
 ---
 
 ## ⚙️ 4. Process & Systemd (Service Management)
@@ -105,7 +107,7 @@ Dokumen ini adalah rangkuman teknis ("Cheat Sheet") dari materi Linux System Adm
 
 ---
 
-## 🌐 7. Network Basics (Bonus Material)
+## 🌐 7. Network Basics
 *Perintah dasar jaringan yang wajib diketahui DevOps.*
 
 | Command | Fungsi |
@@ -145,6 +147,7 @@ Dokumen ini adalah rangkuman teknis ("Cheat Sheet") dari materi Linux System Adm
 | **Mode** | Tidak ada (Langsung ketik) | `i` (Insert), `Esc` (Normal), `v` (Visual) |
 
 > **💡 Recommendation:** Gunakan **Nano** untuk edit cepat. Pelajari **Vim** untuk efisiensi jangka panjang di lingkungan server minimalis.
+> **💡 Belajar VIM:** Gunakan **vimtutor** di terminal belajar VIM.
 
 ---
 *Created by Dewa - Software Engineering Student & Aspiring DevOps Engineer*
