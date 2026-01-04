@@ -2,15 +2,6 @@
 
 > Repository ini mendokumentasikan perjalanan saya mempelajari DevOps dari nol menggunakan struktur Mata Kuliah.
 
----
-
-## 🚦 Status
-
-* **Menunggu:**   ![](https://img.shields.io/badge/Waiting-lightgrey?style=flat&logo=hourglass)   : Materi belum dipelajari
-* **Sedang Dikerjakan:**   ![](https://img.shields.io/badge/On_Progress-yellow?style=flat&logo=fire)   : Materi sedang dipelajari
-* **Selesai:**   ![](https://img.shields.io/badge/Done-success?style=flat&logo=checkmark)   : Materi sudah dipelajari
-
----
 
 ## 🧠 Metode Pembelajaran (Feynman Technique)
 1.  **Study**: Mempelajari konsep inti.
