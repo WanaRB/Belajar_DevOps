@@ -142,7 +142,7 @@ Dokumen ini adalah rangkuman teknis ("Cheat Sheet") dari materi Linux System Adm
 | :--- | :--- | :--- |
 | **Save** | `Ctrl + O` | `:w` |
 | **Exit** | `Ctrl + X` | `:q` |
-| **Save & Exit** | - | `:wq` |
+| **Save & Exit** | `Ctrl  O lalu Ctrl X` | `:wq` |
 | **Force Exit** | `Ctrl + X` (lalu `N`) | `:q!` |
 | **Mode** | Tidak ada (Langsung ketik) | `i` (Insert), `Esc` (Normal), `v` (Visual) |
 
