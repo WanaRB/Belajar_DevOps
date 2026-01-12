@@ -1,0 +1,9 @@
+* * * * * echo "Server Hidup: ($date)" >> :~/project_devops/MK-001_Linux_System_Administration/bash_project/cron/heartbeat.log
+
+artinya:
+menambahkan line "Server Hidup: ($date)" ke file heartbeat.log 
+yang ada di direktori ~/project_devops/MK-001_Linux_System_Administration/bash_project/cron
+
+* * * * * 
+setiap menit setiap jam setiap hari 
+artinya setiap 1 menit akan menjalankan script ini

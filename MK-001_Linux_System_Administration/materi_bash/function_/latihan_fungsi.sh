@@ -7,7 +7,7 @@ print_header() {
 	echo "======================================"
 }
 
-# 2. Panggil fungsi tersebut untuk 3 task tadi
+# 2. Panggil fungsi tersebut
 print_header "Update System"
 sleep 1
 echo "✅ Sukses"
@@ -19,3 +19,17 @@ echo "✅ Sukses"
 print_header "Config Firewall"
 sleep 1
 echo "✅ Sukses"
+
+#ketika dijalankan maka akan menghasilkan output: 
+#======================================
+#START: Update System
+#======================================
+#✅ Sukses
+#======================================
+#START: Install Nginx
+#======================================
+#✅ Sukses
+#======================================
+#START: Config Firewall
+#======================================
+#✅ Sukses

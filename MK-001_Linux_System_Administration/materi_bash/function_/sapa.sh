@@ -7,3 +7,5 @@ sapa(){
 
 sapa "$1"
 #memanggil functionnya dan mengisi argumentnnya dengan $1 agar bisa dijalankan tanpa mengetik lagi 
+#contoh penggunaan: ./sapa.sh dewa
+#output: Halo, dewa

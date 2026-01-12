@@ -20,3 +20,5 @@ cd /root/folder_rahasia
 # 3. Buat file
 touch laporan.txt
 echo "✅ File laporan berhasil dibuat!"
+
+#script ini tidak bisa berjalan, tujuan utama dibuat hanya agar berhenti karena command awalnya salah

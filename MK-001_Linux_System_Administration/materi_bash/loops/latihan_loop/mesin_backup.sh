@@ -1,5 +1,7 @@
 #!/bin/bash 
 
+#Script ini membuat file backup dengan ekstensi .bak untuk semua file yang ada di folder ini
+
 echo "=== MEMULAI BACKUP OTOMATIS ==="
 
 for FILE in *.txt
