@@ -208,7 +208,7 @@ do
     tar -czf "$DATA.tar.gz" "$DATA"
 done
 
-🛡️ 7. Error Handling & Safety
+##🛡️ 7. Error Handling & Safety
 Membuat script yang tangguh (Robust) dan aman.
 | Command | Fungsi | 
 | :--- | :--- | 
@@ -217,3 +217,47 @@ Membuat script yang tangguh (Robust) dan aman.
 | **OR Operator ** | ``` |
 | **Check Root (root hasilnya 0)** | `$(id-u)` |
 | **Silent Grep** | `grep -q ` |
+
+## 🧩 8. Functions (Modular Code)
+*Membungkus logika berulang agar script rapi (DRY - Don't Repeat Yourself).*
+
+| Syntax | Contoh |
+| :--- | :--- |
+| **Definisi** | `nama_fungsi() { ... }` |
+| **Panggil** | `nama_fungsi` |
+| **Parameter** | `$1` (di dalam fungsi) |
+
+**Contoh:**
+```bash
+log_error() {
+    echo "[ERROR] $1"
+}
+log_error "Koneksi Gagal" # Output: [ERROR] Koneksi Gagal
+
+
+⏰ 10. Cron (Scheduler)
+Menjadwalkan script berjalan otomatis.
+
+Command: crontab -e (Edit jadwal).
+
+Rumus Waktu (Bintang Lima): * * * * * /path/ke/script.sh
+
+Menit (0-59)
+
+Jam (0-23)
+
+Tanggal (1-31)
+
+Bulan (1-12)
+
+Hari (0-6) (0=Minggu)
+
+Contoh:
+
+0 8 * * * = Jam 8 Pagi setiap hari.
+
+*/5 * * * * = Setiap 5 menit sekali.
+
+* * * * * = "Setiap Menit, Setiap Jam, Setiap Hari" (Non-stop).
+
+30 14 * * 5 = "Jam 14:30 (Setengah 3 sore), khusus hari Jumat".
