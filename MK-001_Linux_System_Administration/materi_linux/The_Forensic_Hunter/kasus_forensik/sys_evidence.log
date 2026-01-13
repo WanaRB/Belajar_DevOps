@@ -1,3 +1,0 @@
-Dec 31 09:00:00 myserver systemd[1]: Started Nginx Web Server.
-Dec 31 09:05:00 myserver nginx[890]: [error] 890#0: *1 open() '/var/www/html/admin.php' failed (2: No such file or directory)
-Dec 31 09:06:00 myserver kernel: [ 123.456] Out of memory: Killed process 890 (nginx) total-vm:2048kB

@@ -1,6 +1,0 @@
-Dec 31 10:00:01 myserver sshd[123]: Failed password for root from 192.168.1.50 port 22 ssh2
-Dec 31 10:00:02 myserver sshd[123]: Failed password for root from 192.168.1.50 port 22 ssh2
-Dec 31 10:00:05 myserver sshd[123]: Failed password for invalid user admin from 10.10.10.99 port 22 ssh2
-Dec 31 10:00:06 myserver sshd[123]: Failed password for root from 192.168.1.50 port 22 ssh2
-Dec 31 10:05:00 myserver sshd[123]: Accepted password for dewa from 192.168.1.50 port 22 ssh2
-Dec 31 10:06:00 myserver sudo: dewa : TTY=pts/0 ; COMMAND=/usr/bin/cat /etc/shadow

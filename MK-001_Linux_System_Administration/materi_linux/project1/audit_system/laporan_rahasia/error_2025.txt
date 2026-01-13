@@ -1,3 +1,0 @@
-TOP SECRET - HANYA UNTUK ADMIN
-[ERROR] Database connection failed
-[ERROR] Timeout waiting for data
