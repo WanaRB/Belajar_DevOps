@@ -1,6 +1,5 @@
 # 📖 Cheatsheet: MK-001 Architecture & Navigation
 
-> **"Simpan ini. Ini adalah kitab suci navigasi Anda."**
 
 Dokumen ini berisi rangkuman command vital, shortcut, dan best practice untuk navigasi dan manajemen file di Linux. Didesain khusus untuk transisi dari **Operator** ke **DevOps Engineer**.
 
