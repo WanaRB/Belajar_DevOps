@@ -1,0 +1,23 @@
+# --- System & Editor Junk ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Logs & Databases ---
+*.log
+*.sqlite
+error.log
+
+# --- Secrets (Wajib!) ---
+.env
+.env.local
+id_rsa
+*.pem
+*.key
+
+# --- Build Output (Nanti kalau sudah coding app) ---
+node_modules/
+dist/
+build/
